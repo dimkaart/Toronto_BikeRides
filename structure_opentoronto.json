@@ -1,0 +1,65 @@
+{
+    "__comment__": "While 2014 - 2019 is provided in quarters, 2020 and beyond is provided as monthly data. Unfortunately the structure of the code changes every year. Therefore, I will provide the file structure as well as naming schemas for every year.",
+
+    "2016":{
+        "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/7e876c24-177c-4605-9cef-e50dd74c617f/resource/6814e3b2-9e57-4df6-915a-ad0dddda9ea5/download/bikeshare-ridership-2016.xlsx",
+        "Structure":{
+            "bikeshare-ridership-2016.csv":"bikeshare-ridership-2016.csv"},
+        "Column Names": ["trip_id", "trip_start_time", "trip_stop_time", "trip_duration_seconds","from_station_name", "to_station_name", "user_type"]
+    },
+
+    "2017":{
+        "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/7e876c24-177c-4605-9cef-e50dd74c617f/resource/98b63ba7-24ba-41da-a788-1c28d21a39d1/download/bikeshare-ridership-2017.zip",
+        "Structure":{
+            "bikeshare-ridership-2017.zip":{
+                "2017 Data":["Bikeshare Ridership (2017 Q1).csv","Bikeshare Ridership (2017 Q2).csv","Bikeshare Ridership (2017 Q3).csv", "Bikeshare Ridership (2017 Q4).csv"]
+            }
+        },
+        "Column Names": ["trip_id","trip_start_time","trip_stop_time","trip_duration_seconds","from_station_name","to_station_name","user_type"]                
+    },
+
+    "2018":{
+        "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/7e876c24-177c-4605-9cef-e50dd74c617f/resource/f4e91cc6-b925-46bb-bb89-aab0b618d9c2/download/bikeshare-ridership-2018.zip",
+        "Structure":{
+            "bikeshare-ridership-2018.zip":{
+                "bikeshare2018": ["Bike Share Toronto Ridership_Q1 2018.csv","Bike Share Toronto Ridership_Q2 2018.csv","Bike Share Toronto Ridership_Q3 2018.csv","Bike Share Toronto Ridership_Q4 2018.csv"]
+            }
+        },
+        "Column Names": ["trip_id","trip_duration_seconds","from_station_id","trip_start_time","from_station_name","trip_stop_time","to_station_id","to_station_name","user_type"]
+    },
+
+    "2019":{
+        "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/7e876c24-177c-4605-9cef-e50dd74c617f/resource/f725ec3b-4f5c-4013-8a39-a512c44b44ba/download/bikeshare-ridership-2019.zip",
+        "Structure":{
+            "bikeshare-ridership-2019.zip": ["2019-Q1.csv","2019-Q2.csv","2019-Q3.csv","2019-Q4.csv"]
+        },
+        "Column Names": ["Trip Id","Trip  Duration","Start Station Id","Start Time","Start Station Name","End Station Id","End Time","End Station Name","Bike Id","User Type"]
+    },
+
+    "2020":{
+        "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/7e876c24-177c-4605-9cef-e50dd74c617f/resource/e534141d-92c6-4dd7-8ba1-bb061674d943/download/bikeshare-ridership-2020.zip",
+        "Structure":{
+            "bikeshare-ridership-2020.zip": ["2020-01.csv","2020-02.csv","2020-03.csv","2020-04.csv","2020-05.csv","2020-06.csv","2020-07.csv","2020-08.csv","2020-09.csv","2020-10.csv","2020-11.csv","2020-12.csv"]
+        },
+        "Column Names": ["Trip Id","Trip  Duration","Start Station Id","Start Time","Start Station Name","End Station Id","End Time","End Station Name","Bike Id","User Type"]
+    },
+
+    "2021":{
+        "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/7e876c24-177c-4605-9cef-e50dd74c617f/resource/ddc039f6-07fa-47a3-a707-0121ade3b307/download/bikeshare-ridership-2021.zip",
+        "Structure":{
+            "bikeshare-ridership-2021.zip": ["Bike share ridership 2021-01.csv","Bike share ridership 2021-02.csv","Bike share ridership 2021-03.csv","Bike share ridership 2021-04.csv","Bike share ridership 2021-05.csv","Bike share ridership 2021-06.csv","Bike share ridership 2021-07.csv","Bike share ridership 2021-08.csv","Bike share ridership 2021-09.csv","Bike share ridership 2021-10.csv","Bike share ridership 2021-11.csv","Bike share ridership 2021-12.csv"]
+        },
+        "Column Names": ["Trip Id","Trip  Duration","Start Station Id","Start Time","Start Station Name","End Station Id","End Time","End Station Name","Bike Id","User Type"]
+    },
+
+    "2022":{
+        "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/7e876c24-177c-4605-9cef-e50dd74c617f/resource/db10a7b1-2702-481c-b7f0-0c67070104bb/download/bikeshare-ridership-2022.zip",
+        "Structure":{
+            "bikeshare-ridership-2022.zip":{
+                "Bike share ridership 2022-11.zip": "Bike share ridership 2022-11.csv",
+                "Structure_2": ["Bike share ridership 2022-01.csv","Bike share ridership 2022-02.csv","Bike share ridership 2022-03.csv","Bike share ridership 2022-04.csv","Bike share ridership 2022-05.csv","Bike share ridership 2022-06.csv","Bike share ridership 2022-07.csv","Bike share ridership 2022-08.csv","Bike share ridership 2022-09.csv","Bike share ridership 2022-10.csv","Bike share ridership 2022-12.csv"]
+            }
+        },
+        "Column Names": ["Trip Id","Trip  Duration","Start Station Id","Start Time","Start Station Name","End Station Id","End Time","End Station Name","Bike Id","User Type"]
+    }
+}
